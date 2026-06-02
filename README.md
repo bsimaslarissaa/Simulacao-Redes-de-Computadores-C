@@ -8,8 +8,8 @@ Professor: Gioliano Albertoni <Br>
 Exercício 5 - Simulação de Redes de Computadores  
 
 Você foi contratado para simular uma rede simples de computadores que utiliza comutação de
-pacotes.
-Cada pacote enviado pela rede possui:
+pacotes.  
+Cada pacote enviado pela rede possui:  
 • número do pacote
 • tamanho (KB)
 • tempo estimado de transmissão
