@@ -66,14 +66,14 @@ Simule:
 
 
 **Perguntas teóricas**
-1. Por que a fila representa bem a transmissão de pacotes?
+1. Por que a fila representa bem a transmissão de pacotes?  
    A fila representa bem a transmissão de pacotes porque os pacotes chegam continuamente à rede e precisam ser enviados na ordem em que foram recebidos. Esse comportamento é semelhante ao funcionamento real de roteadores e switches, que organizam os pacotes em sequência para evitar perda de ordem na comunicação.
 
-3. Por que a pilha pode representar retransmissão?
+3. Por que a pilha pode representar retransmissão?  
    A pilha representa retransmissão porque o último pacote que apresentou erro geralmente é o primeiro a ser tratado novamente. Isso ocorre porque o sistema tenta corrigir rapidamente as falhas mais recentes, seguindo o modelo LIFO.  
    
-5. Por que a lista encadeada ajuda no controle de pacotes ativos?
+5. Por que a lista encadeada ajuda no controle de pacotes ativos?  
    A lista encadeada ajuda no controle de pacotes ativos porque permite inserir, remover e buscar pacotes dinamicamente sem necessidade de tamanho fixo. Em uma rede, os pacotes entram e saem constantemente, e a lista encadeada facilita esse gerenciamento de forma eficiente.
    
-7. Qual estrutura melhor representa atraso de fila?
+7. Qual estrutura melhor representa atraso de fila?  
    A estrutura que melhor representa atraso de fila é a fila. Isso ocorre porque, quanto maior a quantidade de pacotes aguardando transmissão, maior será o tempo de espera até que cada pacote seja enviado pela rede.
