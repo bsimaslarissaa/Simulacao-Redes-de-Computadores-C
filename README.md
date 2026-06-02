@@ -13,7 +13,8 @@ Cada pacote enviado pela rede possui:
 • número do pacote  
 • tamanho (KB)  
 • tempo estimado de transmissão  
-Implemente o sistema usando fila, pilha e lista encadeada.    
+Implemente o sistema usando fila, pilha e lista encadeada.  
+
 **Parte 1 — Fila (Pacotes aguardando transmissão)**  
 Os pacotes chegam à interface de rede e aguardam envio.  
 Use uma fila para armazenar os pacotes na ordem de chegada.  
@@ -28,6 +29,7 @@ Pacotes recebidos:
 • Pacote 4 → 200 KB  
 **Pergunta:  
 Qual pacote será transmitido primeiro?** 
+
 **Parte 2 — Pilha (Pacotes com erro)**
 Pacotes que falharam na transmissão devem ser armazenados para retransmissão.
 Use uma pilha.
