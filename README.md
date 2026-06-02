@@ -78,7 +78,7 @@ Simule:
 7. Qual estrutura melhor representa atraso de fila?  
    A estrutura que melhor representa atraso de fila é a fila. Isso ocorre porque, quanto maior a quantidade de pacotes aguardando transmissão, maior será o tempo de espera até que cada pacote seja enviado pela rede.
 
-**Estrutura dos Arquivos:**
+**Estrutura dos Arquivos:**  
 RedePacotes/  
 fila.h  
 fila.c  
@@ -89,7 +89,7 @@ pilha.c
 main.c  
 ./rede.exe
 
-**Comandos utilizados:**
+**Comandos utilizados:**  
 Para compilar:  
 gcc main.c fila.c pilha.c lista.c -o rede  
 
