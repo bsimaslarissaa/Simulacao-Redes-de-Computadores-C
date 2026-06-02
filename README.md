@@ -60,4 +60,14 @@ Simule:
 1. Chegada de 4 pacotes.  
 2. Transmissão de 2 pacotes.  
 3. Um pacote apresenta erro e vai para pilha.  
-4. Um pacote é entregue e removido da lista.  
+4. Um pacote é entregue e removido da lista.
+
+
+**Perguntas teóricas**
+1. Por que a fila representa bem a transmissão de pacotes?
+   
+3. Por que a pilha pode representar retransmissão?
+   
+5. Por que a lista encadeada ajuda no controle de pacotes ativos?
+   
+7. Qual estrutura melhor representa atraso de fila?  
