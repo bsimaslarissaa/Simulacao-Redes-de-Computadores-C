@@ -76,4 +76,23 @@ Simule:
    A lista encadeada ajuda no controle de pacotes ativos porque permite inserir, remover e buscar pacotes dinamicamente sem necessidade de tamanho fixo. Em uma rede, os pacotes entram e saem constantemente, e a lista encadeada facilita esse gerenciamento de forma eficiente.
    
 7. Qual estrutura melhor representa atraso de fila?  
-   A estrutura que melhor representa atraso de fila é a fila. Isso ocorre porque, quanto maior a quantidade de pacotes aguardando transmissão, maior será o tempo de espera até que cada pacote seja enviado pela rede. 
+   A estrutura que melhor representa atraso de fila é a fila. Isso ocorre porque, quanto maior a quantidade de pacotes aguardando transmissão, maior será o tempo de espera até que cada pacote seja enviado pela rede.
+
+**Estrutura dos Arquivos:**
+RedePacotes/  
+fila.h  
+fila.c  
+lista.h  
+lista.c  
+pilha.h  
+pilha.c  
+main.c  
+./rede.exe
+
+**Comandos utilizados:**
+Para compilar:  
+gcc main.c fila.c pilha.c lista.c -o rede  
+
+Para executar:  
+./rede.exe  
+
