@@ -33,13 +33,13 @@ Qual pacote será transmitido primeiro?**
 **Parte 2 — Pilha (Pacotes com erro)**
 Pacotes que falharam na transmissão devem ser armazenados para retransmissão.
 Use uma pilha.
-Operações:
-• registrar pacote com erro
-• retransmitir último pacote com erro
-• mostrar pilha
-Exemplo:
-Pacote 2 falhou
-Pacote 4 falhou
+Operações:  
+• registrar pacote com erro  
+• retransmitir último pacote com erro  
+• mostrar pilha  
+Exemplo:  
+Pacote 2 falhou  
+Pacote 4 falhou  
 **Pergunta:
 Qual será retransmitido primeiro?**
 
