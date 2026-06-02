@@ -39,22 +39,23 @@ Exemplo:
 Pacote 2 falhou
 Pacote 4 falhou
 Pergunta:
-Qual será retransmitido primeiro?
-Parte 3 — Lista Encadeada (Pacotes ativos na rede)
-Os pacotes atualmente circulando pela rede devem ser mantidos em uma lista.
-Cada pacote deve conter:
-• ID
-• origem
-• destino
-• status (em trânsito / entregue)
-Operações:
-• inserir pacote
-• buscar pacote
-• remover pacote entregue
-• listar pacotes
-Situação prática
-Simule:
-1. Chegada de 4 pacotes.
-2. Transmissão de 2 pacotes.
-3. Um pacote apresenta erro e vai para pilha.
-4. Um pacote é entregue e removido da lista.
+Qual será retransmitido primeiro?  
+
+Parte 3 — Lista Encadeada (Pacotes ativos na rede)  
+Os pacotes atualmente circulando pela rede devem ser mantidos em uma lista.  
+Cada pacote deve conter:  
+• ID  
+• origem  
+• destino  
+• status (em trânsito / entregue)  
+Operações:  
+• inserir pacote  
+• buscar pacote  
+• remover pacote entregue  
+• listar pacotes  
+Situação prática  
+Simule:  
+1. Chegada de 4 pacotes.  
+2. Transmissão de 2 pacotes.  
+3. Um pacote apresenta erro e vai para pilha.  
+4. Um pacote é entregue e removido da lista.  
